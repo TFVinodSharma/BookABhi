@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="tris.papa_applition.ModeOfGuidance">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="250dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/box">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:background="#c0c0c0"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textSize="@dimen/font_size"
+                android:layout_marginLeft="10dp"
+                android:text="Call"
+                />
+            <ImageButton
+                android:id="@+id/ImageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/greenbutton"
+                android:layout_marginLeft="115dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:src="@android:drawable/ic_input_add" />
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textSize="@dimen/font_size"
+                android:layout_marginLeft="10dp"
+                android:text="Vedio Call"
+                />
+            <ImageButton
+                android:id="@+id/punjabibutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/greenbutton"
+                android:layout_marginLeft="100dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:src="@android:drawable/ic_input_add" />
+
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textSize="@dimen/font_size"
+                android:layout_marginLeft="5dp"
+                android:text="Home visit (only for tutors and doctors)"
+                />
+            <ImageButton
+                android:id="@+id/Clientbuttton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/greenbutton"
+                android:layout_marginLeft="10dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:src="@android:drawable/ic_input_add" />
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:background="#c0c0c0"/>
+
+
+    </LinearLayout>
+</LinearLayout>
+
+    <!-- <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="5dp"
+         android:orientation="horizontal">
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:padding="10dp"
+             android:textStyle="bold"
+             android:layout_marginLeft="10dp"
+             android:text="Call"
+             />
+
+         <RelativeLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_margin="5dp"
+             android:background="@color/green"
+             android:id="@+id/accept">
+
+             <LinearLayout
+                 android:layout_width="wrap_content"
+                 android:layout_height="30dp"
+                 android:layout_centerInParent="true"
+                 android:orientation="horizontal">
+
+                 <ImageView
+                     android:layout_width="25dp"
+                     android:layout_height="25dp"
+                     android:layout_marginRight="10dp"
+                     android:tint="#ffffff"
+                     android:src="@drawable/done"
+                     android:layout_gravity="center"/>
+
+                 <TextView
+                     android:text="Accept"
+                     android:textSize="@dimen/font_size"
+                     android:textStyle="bold"
+                     android:textColor="#ffffff"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_gravity="center"
+                     android:id="@+id/tvaccept"/>
+
+             </LinearLayout>
+
+         </RelativeLayout>
+         <RelativeLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_margin="5dp"
+             android:background="@color/colorPrimary"
+             android:id="@+id/reject">
+             <LinearLayout
+                 android:layout_width="wrap_content"
+                 android:layout_height="30dp"
+                 android:orientation="horizontal"
+                 android:layout_centerInParent="true">
+
+                 <ImageView
+                     android:layout_width="25dp"
+                     android:layout_height="25dp"
+                     android:layout_marginRight="20dp"
+                     android:tint="#ffffff"
+                     android:src="@drawable/cancel"
+                     android:layout_gravity="center"/>
+
+                 <TextView
+                     android:text="Reject"
+                     android:textStyle="bold"
+                     android:textSize="@dimen/font_size"
+                     android:textColor="#ffffff"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_gravity="center"/>
+
+             </LinearLayout>
+         </RelativeLayout>
+
+
+
+     </LinearLayout>
+     <View
+         android:layout_width="match_parent"
+         android:layout_height="1dp"
+         android:layout_marginTop="5dp"
+         android:background="#c0c0c0"/>
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="5dp"
+         android:orientation="horizontal">
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:padding="10dp"
+             android:textStyle="bold"
+             android:layout_marginLeft="10dp"
+             android:text="Vedio Call"
+             />
+         <RelativeLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_margin="5dp"
+             android:background="@color/green"
+             android:id="@+id/acceptt">
+
+             <LinearLayout
+                 android:layout_width="wrap_content"
+                 android:layout_height="30dp"
+                 android:layout_centerInParent="true"
+                 android:orientation="horizontal">
+
+                 <ImageView
+                     android:layout_width="25dp"
+                     android:layout_height="25dp"
+                     android:layout_marginRight="10dp"
+                     android:tint="#ffffff"
+                     android:src="@drawable/done"
+                     android:layout_gravity="center"/>
+
+                 <TextView
+                     android:text="Accept"
+                     android:textSize="@dimen/font_size"
+                     android:textStyle="bold"
+                     android:textColor="#ffffff"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_gravity="center"
+                     android:id="@+id/tvaccept1"/>
+
+             </LinearLayout>
+
+         </RelativeLayout>
+
+         <RelativeLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_margin="5dp"
+             android:background="@color/colorPrimary"
+             android:id="@+id/rejectt">
+             <LinearLayout
+                 android:layout_width="wrap_content"
+                 android:layout_height="30dp"
+                 android:orientation="horizontal"
+                 android:layout_centerInParent="true">
+
+                 <ImageView
+                     android:layout_width="25dp"
+                     android:layout_height="25dp"
+                     android:layout_marginRight="20dp"
+                     android:tint="#ffffff"
+                     android:src="@drawable/cancel"
+                     android:layout_gravity="center"/>
+
+                 <TextView
+                     android:text="Reject"
+                     android:textStyle="bold"
+                     android:textSize="@dimen/font_size"
+                     android:textColor="#ffffff"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_gravity="center"/>
+
+             </LinearLayout>
+         </RelativeLayout>
+
+     </LinearLayout>
+     <View
+         android:layout_width="match_parent"
+         android:layout_height="1dp"
+         android:layout_marginTop="5dp"
+         android:background="#c0c0c0"/>
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="5dp"
+         android:orientation="horizontal">
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:padding="10dp"
+             android:textStyle="bold"
+             android:layout_marginLeft="10dp"
+             android:text="Client place(only for tutors and doctors)"
+             />
+
+         <RelativeLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_margin="5dp"
+             android:background="@color/green"
+             android:id="@+id/accepttt">
+
+             <LinearLayout
+                 android:layout_width="wrap_content"
+                 android:layout_height="30dp"
+                 android:layout_centerInParent="true"
+                 android:orientation="horizontal">
+
+                 <ImageView
+                     android:layout_width="25dp"
+                     android:layout_height="25dp"
+                     android:layout_marginRight="10dp"
+                     android:tint="#ffffff"
+                     android:src="@drawable/done"
+                     android:layout_gravity="center"/>
+
+                 <TextView
+                     android:text="Accept"
+                     android:textSize="@dimen/font_size"
+                     android:textStyle="bold"
+                     android:textColor="#ffffff"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_gravity="center"
+                     android:id="@+id/tvacceptt"/>
+
+             </LinearLayout>
+
+         </RelativeLayout>
+         <RelativeLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_margin="5dp"
+             android:background="@color/colorPrimary"
+             android:id="@+id/reject1">
+             <LinearLayout
+                 android:layout_width="wrap_content"
+                 android:layout_height="30dp"
+                 android:orientation="horizontal"
+                 android:layout_centerInParent="true">
+
+                 <ImageView
+                     android:layout_width="25dp"
+                     android:layout_height="25dp"
+                     android:layout_marginRight="20dp"
+                     android:tint="#ffffff"
+                     android:src="@drawable/cancel"
+                     android:layout_gravity="center"/>
+
+                 <TextView
+                     android:text="Reject"
+                     android:textStyle="bold"
+                     android:textSize="@dimen/font_size"
+                     android:textColor="#ffffff"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_gravity="center"/>
+
+             </LinearLayout>
+         </RelativeLayout>
+
+
+     </LinearLayout>
+     <View
+         android:layout_width="match_parent"
+         android:layout_height="1dp"
+         android:layout_marginTop="5dp"
+         android:background="#c0c0c0"/>
+   &lt;!&ndash;  <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_alignParentEnd="true"
+         android:orientation="vertical"
+         android:layout_toRightOf="@+id/v1"
+         android:layout_centerVertical="true">
+
+         <RelativeLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_margin="5dp"
+             android:background="@color/green"
+             android:id="@+id/accept">
+
+             <LinearLayout
+                 android:layout_width="wrap_content"
+                 android:layout_height="30dp"
+                 android:layout_centerInParent="true"
+                 android:orientation="horizontal">
+
+                 <ImageView
+                     android:layout_width="25dp"
+                     android:layout_height="25dp"
+                     android:layout_marginRight="10dp"
+                     android:tint="#ffffff"
+                     android:src="@drawable/done"
+                     android:layout_gravity="center"/>
+
+                 <TextView
+                     android:text="Accept"
+                     android:textSize="@dimen/font_size"
+                     android:textStyle="bold"
+                     android:textColor="#ffffff"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_gravity="center"
+                     android:id="@+id/tvaccept"/>
+
+             </LinearLayout>
+
+         </RelativeLayout>
+
+         <RelativeLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_margin="5dp"
+             android:background="@color/colorPrimary"
+             android:id="@+id/reject">
+             <LinearLayout
+                 android:layout_width="wrap_content"
+                 android:layout_height="30dp"
+                 android:orientation="horizontal"
+                 android:layout_centerInParent="true">
+
+                 <ImageView
+                     android:layout_width="25dp"
+                     android:layout_height="25dp"
+                     android:layout_marginRight="20dp"
+                     android:tint="#ffffff"
+                     android:src="@drawable/cancel"
+                     android:layout_gravity="center"/>
+
+                 <TextView
+                     android:text="Reject"
+                     android:textStyle="bold"
+                     android:textSize="@dimen/font_size"
+                     android:textColor="#ffffff"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_gravity="center"/>
+
+             </LinearLayout>
+         </RelativeLayout>
+
+         <RelativeLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_margin="5dp"
+             android:background="@color/colorAccent"
+             android:id="@+id/cancel">
+             <LinearLayout
+                 android:layout_width="wrap_content"
+                 android:layout_height="30dp"
+                 android:orientation="horizontal"
+                 android:layout_centerInParent="true">
+
+                 &lt;!&ndash;<ImageView&ndash;&gt;
+                 &lt;!&ndash;android:layout_width="25dp"&ndash;&gt;
+                 &lt;!&ndash;android:layout_height="25dp"&ndash;&gt;
+                 &lt;!&ndash;android:layout_marginRight="20dp"&ndash;&gt;
+                 &lt;!&ndash;android:tint="#ffffff"&ndash;&gt;
+                 &lt;!&ndash;android:src="@drawable/cancel"&ndash;&gt;
+                 &lt;!&ndash;android:layout_gravity="center"/>&ndash;&gt;
+
+                 <TextView
+                     android:text="Canceled"
+                     android:textStyle="bold"
+                     android:textSize="@dimen/font_size"
+                     android:textColor="#ffffff"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_gravity="center"/>
+
+             </LinearLayout>
+         </RelativeLayout>
+
+     </LinearLayout>-->
+
+
+
+
+
+
+

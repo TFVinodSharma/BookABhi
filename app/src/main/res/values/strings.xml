@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Test</string>
+    <string name="title_activity_home">Home</string>
+
+
+    <string name="content">Guide &amp; earn</string>
+    <string name="ss"><font size="15"><b>Hi Tusar you have sucessful signin as a partneton </b></font><u>Book Abhi<bold></bold></u></string>
+    <string name="school"><b>I can Guide Student with regards to selecting best
+        school/Examination Preparation/Study techniques/Stream selection etc</b>In short I can guide Schools Students</string>
+    <string name="note">Make sure you have mentioned your skills properly . No further changes are possible</string>
+
+</resources>
